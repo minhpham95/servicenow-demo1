@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_app_info">
+    <sys_app_info action="INSERT_OR_UPDATE">
+        <properties>{"generated_using_ai":"true"}</properties>
+        <sys_class_name>sys_app_info</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 04:20:55</sys_created_on>
+        <sys_id>b828d9292ffe87905d9db97a6fa4e369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="DemoApp1" source="x_2143501_demoapp1">131451212ffe87905d9db97a6fa4e365</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoApp1">131451212ffe87905d9db97a6fa4e365</sys_scope>
+        <sys_update_name>sys_app_info_b828d9292ffe87905d9db97a6fa4e369</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-19 04:20:55</sys_updated_on>
+    </sys_app_info>
+</record_update>

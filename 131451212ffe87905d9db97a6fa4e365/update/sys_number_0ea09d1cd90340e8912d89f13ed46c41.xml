@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+  <sys_number action="INSERT_OR_UPDATE">
+    <sys_id>0ea09d1cd90340e8912d89f13ed46c41</sys_id>
+    <sys_scope display_value="x_2143501_demoapp1">131451212ffe87905d9db97a6fa4e365</sys_scope>
+    <sys_update_name>sys_number_0ea09d1cd90340e8912d89f13ed46c41</sys_update_name>
+    <category>x_2143501_demoapp1_device_mgmt</category>
+    <maximum_digits>7</maximum_digits>
+    <number>1000</number>
+    <prefix>DEV</prefix>
+  </sys_number>
+</record_update>
