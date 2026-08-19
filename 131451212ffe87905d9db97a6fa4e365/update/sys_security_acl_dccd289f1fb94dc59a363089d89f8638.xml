@@ -9,7 +9,7 @@
     <applies_to/>
     <condition/>
     <decision_type>allow</decision_type>
-    <description>Allow write access to Device Management table for admin and device_management roles</description>
+    <description>Allow write access to Device Management table for admin, device_management, and dispatch_management roles</description>
     <name>x_2143501_demoapp1_device_mgmt</name>
     <operation display_value="write">write</operation>
     <script/>

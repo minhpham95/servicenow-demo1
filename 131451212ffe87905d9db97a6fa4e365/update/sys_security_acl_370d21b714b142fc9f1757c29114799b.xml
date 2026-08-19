@@ -9,7 +9,7 @@
     <applies_to/>
     <condition/>
     <decision_type>allow</decision_type>
-    <description>Allow delete access to Device Management table for admin role only</description>
+    <description>Allow delete access to Device Management table for admin and device_management roles</description>
     <name>x_2143501_demoapp1_device_mgmt</name>
     <operation display_value="delete">delete</operation>
     <script/>
