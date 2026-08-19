@@ -5,7 +5,7 @@
     <sys_update_name>sys_user_role_b6d63ff9e91c4c66921c08924ec08557</sys_update_name>
     <assignable_by/>
     <can_delegate>true</can_delegate>
-    <description/>
+    <description>Default end user role</description>
     <elevated_privilege>false</elevated_privilege>
     <grantable>true</grantable>
     <name>x_2143501_demoapp1.user</name>
