@@ -12,6 +12,7 @@
         <element label="Device Name" mandatory="true" max_length="100" name="device_name" type="string"/>
         <element label="Assigned User" max_length="32" name="assigned_user" reference="sys_user" type="reference"/>
         <element label="Serial Number" max_length="100" name="serial_number" type="string"/>
+        <element label="Demo" max_length="40" name="demo" type="string"/>
         <element label="Manufacturer" max_length="100" name="manufacturer" type="string"/>
         <element label="Device Type" max_length="40" name="device_type" type="choice">
             <choice>
