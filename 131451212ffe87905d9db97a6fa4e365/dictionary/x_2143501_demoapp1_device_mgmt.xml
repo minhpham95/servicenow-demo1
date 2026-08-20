@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="72ca8c1b837343b8b28b63fe7dddd3b2" extends="task" label="Device Management" name="x_2143501_demoapp1_device_mgmt" type="collection">
+        <element default="available" label="Device Status" max_length="40" name="device_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Retired" sequence="4" value="retired"/>
+                <element inactive_on_update="false" label="Under Maintenance" sequence="3" value="maintenance"/>
+                <element inactive_on_update="false" label="Lost/Stolen" sequence="5" value="lost"/>
+                <element inactive_on_update="false" label="In Use" sequence="2" value="in_use"/>
+                <element inactive_on_update="false" label="Available" sequence="1" value="available"/>
+            </choice>
+        </element>
+        <element label="Device Name" mandatory="true" max_length="100" name="device_name" type="string"/>
+        <element label="Assigned User" max_length="32" name="assigned_user" reference="sys_user" type="reference"/>
+        <element label="Serial Number" max_length="100" name="serial_number" type="string"/>
+        <element label="Manufacturer" max_length="100" name="manufacturer" type="string"/>
+        <element label="Device Type" max_length="40" name="device_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Other" sequence="8" value="other"/>
+                <element inactive_on_update="false" label="Server" sequence="5" value="server"/>
+                <element inactive_on_update="false" label="Desktop" sequence="2" value="desktop"/>
+                <element inactive_on_update="false" label="Laptop" sequence="1" value="laptop"/>
+                <element inactive_on_update="false" label="Tablet" sequence="4" value="tablet"/>
+                <element inactive_on_update="false" label="Printer" sequence="6" value="printer"/>
+                <element inactive_on_update="false" label="Mobile" sequence="3" value="mobile"/>
+                <element inactive_on_update="false" label="Network Equipment" sequence="7" value="network"/>
+            </choice>
+        </element>
+        <element label="Model" max_length="100" name="model" type="string"/>
+    </element>
+</database>

@@ -1,26 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
-  <sys_db_object action="INSERT_OR_UPDATE">
-    <sys_id>72ca8c1b837343b8b28b63fe7dddd3b2</sys_id>
-    <sys_scope display_value="x_2143501_demoapp1">131451212ffe87905d9db97a6fa4e365</sys_scope>
-    <sys_update_name>sys_db_object_72ca8c1b837343b8b28b63fe7dddd3b2</sys_update_name>
-    <access>public</access>
-    <actions_access>false</actions_access>
-    <alter_access>false</alter_access>
-    <caller_access/>
-    <client_scripts_access>false</client_scripts_access>
-    <create_access>false</create_access>
-    <create_access_controls>false</create_access_controls>
-    <delete_access>false</delete_access>
-    <is_extendable>true</is_extendable>
-    <label>Device Management</label>
-    <live_feed_enabled>false</live_feed_enabled>
-    <name>x_2143501_demoapp1_device_mgmt</name>
-    <number_ref category="x_2143501_demoapp1_device_mgmt" prefix="DEV">0ea09d1cd90340e8912d89f13ed46c41</number_ref>
-    <read_access>true</read_access>
-    <scriptable_table>false</scriptable_table>
-    <super_class name="task">32717b1de75f40b0913c3da73c7c3b3a</super_class>
-    <update_access>false</update_access>
-    <user_role/>
-    <ws_access>true</ws_access>
-  </sys_db_object>
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_data_interface>false</is_data_interface>
+        <is_df_table>false</is_df_table>
+        <is_extendable>true</is_extendable>
+        <label>Device Management</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_2143501_demoapp1_device_mgmt</name>
+        <number_ref display_value="DEV">0ea09d1cd90340e8912d89f13ed46c41</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class display_value="Task" name="task">e4f89235086003100a22e9371c04a489</super_class>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-08-19 04:20:12</sys_created_on>
+        <sys_id>72ca8c1b837343b8b28b63fe7dddd3b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Device Management</sys_name>
+        <sys_package display_value="DemoApp1" source="x_2143501_demoapp1">131451212ffe87905d9db97a6fa4e365</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DemoApp1">131451212ffe87905d9db97a6fa4e365</sys_scope>
+        <sys_update_name>sys_db_object_72ca8c1b837343b8b28b63fe7dddd3b2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-08-19 04:20:12</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
 </record_update>
