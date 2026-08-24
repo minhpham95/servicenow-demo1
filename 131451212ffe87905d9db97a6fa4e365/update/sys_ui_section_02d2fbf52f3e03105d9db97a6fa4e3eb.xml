@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Device Details" section_id="02d2fbf52f3e03105d9db97a6fa4e3eb" sys_domain="global" table="x_2143501_demoapp1_device_mgmt" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-20 10:15:20</sys_created_on>
+            <sys_id>ded23ff52f3e03105d9db97a6fa4e305</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Details" display_value="Device Details" name="x_2143501_demoapp1_device_mgmt" sys_domain="global" view="Default view">02d2fbf52f3e03105d9db97a6fa4e3eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-20 10:15:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>price</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-20 10:15:20</sys_created_on>
+            <sys_id>5ed23ff52f3e03105d9db97a6fa4e306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Details" display_value="Device Details" name="x_2143501_demoapp1_device_mgmt" sys_domain="global" view="Default view">02d2fbf52f3e03105d9db97a6fa4e3eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-20 10:15:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-20 10:15:21</sys_created_on>
+            <sys_id>dad23ff52f3e03105d9db97a6fa4e307</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Details" display_value="Device Details" name="x_2143501_demoapp1_device_mgmt" sys_domain="global" view="Default view">02d2fbf52f3e03105d9db97a6fa4e3eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-20 10:15:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>device_description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-20 10:15:21</sys_created_on>
+            <sys_id>5ad23ff52f3e03105d9db97a6fa4e308</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Details" display_value="Device Details" name="x_2143501_demoapp1_device_mgmt" sys_domain="global" view="Default view">02d2fbf52f3e03105d9db97a6fa4e3eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-20 10:15:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>warranty_expiration</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-20 10:15:21</sys_created_on>
+            <sys_id>d6d23ff52f3e03105d9db97a6fa4e309</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Device Details" display_value="Device Details" name="x_2143501_demoapp1_device_mgmt" sys_domain="global" view="Default view">02d2fbf52f3e03105d9db97a6fa4e3eb</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-20 10:15:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Device Details</caption>
+            <header>false</header>
+            <name>x_2143501_demoapp1_device_mgmt</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-08-20 10:15:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>02d2fbf52f3e03105d9db97a6fa4e3eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_2143501_demoapp1_device_mgmt</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="DemoApp1" source="x_2143501_demoapp1">131451212ffe87905d9db97a6fa4e365</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DemoApp1">131451212ffe87905d9db97a6fa4e365</sys_scope>
+            <sys_update_name>sys_ui_section_02d2fbf52f3e03105d9db97a6fa4e3eb</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-08-20 10:15:20</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

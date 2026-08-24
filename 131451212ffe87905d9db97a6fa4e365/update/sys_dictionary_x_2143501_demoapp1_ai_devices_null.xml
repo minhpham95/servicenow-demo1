@@ -1,14 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="model" table="x_2143501_demoapp1_device_mgmt">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="" extends="cmdb_ci" table="x_2143501_demoapp1_ai_devices">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>enforce_dot_walk_cross_scope_access=true</attributes>
         <audit>false</audit>
-        <calculation/>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Model</column_label>
+        <column_label/>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,20 +26,20 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>model</element>
+        <element/>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="String">string</internal_type>
+        <internal_type display_value="Collection">collection</internal_type>
         <mandatory>false</mandatory>
-        <max_length>100</max_length>
-        <name>x_2143501_demoapp1_device_mgmt</name>
+        <max_length>40</max_length>
+        <name>x_2143501_demoapp1_ai_devices</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>true</read_only>
-        <read_only_option>display_read_only</read_only_option>
+        <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -47,14 +52,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-08-19 04:20:24</sys_created_on>
-        <sys_name>Model</sys_name>
+        <sys_created_on>2026-08-20 04:59:24</sys_created_on>
+        <sys_name>x_2143501_demoapp1_ai_devices</sys_name>
         <sys_package display_value="DemoApp1" source="x_2143501_demoapp1">131451212ffe87905d9db97a6fa4e365</sys_package>
         <sys_policy/>
         <sys_scope display_value="DemoApp1">131451212ffe87905d9db97a6fa4e365</sys_scope>
-        <sys_update_name>sys_dictionary_x_2143501_demoapp1_device_mgmt_model</sys_update_name>
+        <sys_update_name>sys_dictionary_x_2143501_demoapp1_ai_devices_null</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-08-20 10:15:20</sys_updated_on>
+        <sys_updated_on>2026-08-20 04:59:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

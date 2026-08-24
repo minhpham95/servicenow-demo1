@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="6ce8e6bd2fb203105d9db97a6fa4e3c1" extends="cmdb_ci" label="AI Devices" max_length="40" name="x_2143501_demoapp1_ai_devices" type="collection">
+        <element choice="1" label="Device Category" max_length="255" name="device_category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Laptop" sequence="0" value="Laptop"/>
+                <element inactive_on_update="false" label="PC" sequence="1" value="PC"/>
+            </choice>
+        </element>
+        <element label="Price" max_length="20" name="price" type="price"/>
+    </element>
+</database>

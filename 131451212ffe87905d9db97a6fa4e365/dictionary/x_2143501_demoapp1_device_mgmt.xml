@@ -9,10 +9,16 @@
                 <element inactive_on_update="false" label="Available" sequence="1" value="available"/>
             </choice>
         </element>
+        <element label="Device Management Name" mandatory="true" max_length="32" name="device_management_name" reference="x_2143501_demoapp1_ai_devices" type="reference"/>
         <element label="Device Name" mandatory="true" max_length="100" name="device_name" type="string"/>
-        <element label="Assigned User" max_length="32" name="assigned_user" reference="sys_user" type="reference"/>
-        <element label="Serial Number" max_length="100" name="serial_number" type="string"/>
+        <element label="Requestor" mandatory="true" max_length="32" name="requestor" reference="sys_user" type="reference"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element label="Demo" max_length="40" name="demo" type="string"/>
+        <element label="Assigned User" max_length="32" name="assigned_user" reference="sys_user" type="reference"/>
+        <element label="Price" max_length="20" name="price" type="price"/>
+        <element label="Device Description" max_length="40" name="device_description" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element label="Serial Number" max_length="100" name="serial_number" type="string"/>
+        <element label="Delivery Date" max_length="255" name="delivery_date" type="glide_date"/>
         <element label="Manufacturer" max_length="100" name="manufacturer" type="string"/>
         <element label="Device Type" max_length="40" name="device_type" type="choice">
             <choice>
@@ -26,6 +32,14 @@
                 <element inactive_on_update="false" label="Network Equipment" sequence="7" value="network"/>
             </choice>
         </element>
-        <element label="Model" max_length="100" name="model" type="string"/>
+        <element label="Model" max_length="100" name="model" read_only="true" read_only_option="display_read_only" type="string"/>
+        <element choice="1" label="Deliver state" max_length="255" name="deliver_state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Delivered" sequence="0" value="Delivered"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="1" value="Cancelled"/>
+            </choice>
+        </element>
+        <element label="Warranty Expiration" max_length="255" name="warranty_expiration" read_only="true" read_only_option="display_read_only" type="glide_date"/>
+        <element label="Quantity" max_length="255" name="quantity" type="integer"/>
     </element>
 </database>
